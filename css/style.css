@@ -1,0 +1,107 @@
+* {
+	font-family: Gill Sans MT;
+}
+
+p {
+	font-size: 20px;
+}
+
+.section-img {
+	width: 100%;
+}
+
+body {
+	margin: auto;
+	background-color: #f4854d;
+}
+
+.ts-logo {
+	height: 70px;
+	width: auto;
+}
+
+header {
+	text-align: center;
+	padding: 10px;
+	background-color: #5eb298;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	box-shadow: rgba(0, 0, 0, 0.4) 10px 30px 60px -18px;
+}
+
+header nav a {
+	text-decoration: none;
+	text-shadow: 0 0 28px white;
+	padding: 15px 25px;
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	transition: 0.3s ease;
+	border-radius: 50px;
+}
+
+header nav a:hover {
+	background-color: #ea7236;
+	text-shadow: none;
+	box-shadow: 0 0 28px #ea7236;
+	transition: 0.5s ease;
+}
+
+section {
+	background-color: #FAFAFA;
+	margin: auto;
+	width: 70%;
+	padding-left: 130px;
+	padding-right: 130px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+section h1 {
+	text-align: center;
+	font-size: 36px;
+}
+
+footer {
+	padding: 20px;
+	background-color: #5eb298;
+	text-align: center;
+	height: 128px;
+	display: grid;
+	align-items: center;
+	color: white;
+	text-shadow: 0 0 28px white;
+	font-weight: bold;
+}
+
+table {
+	text-align: left;
+	margin: auto;
+	width: 100%;
+	font-size: 20px;
+	border-collapse: collapse;
+}
+
+tr {
+	height: 40px;
+}
+
+th {
+	background-color: #ea7236;
+}
+
+td, th {
+	padding: 15px;
+}
+
+.applemusic-embed {
+	height: 450px;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
